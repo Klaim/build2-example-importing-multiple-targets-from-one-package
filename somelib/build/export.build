@@ -1,6 +1,14 @@
 $out_root/
 {
   include somelib/
+  include utils/
 }
 
-export $out_root/somelib/$import.target
+# Depending on the target name being imported, we don't look into the same directory to get the target.
+switch $import.target
+{
+  case lib{somelib}
+    export $out_root/somelib/$import.target
+  case lib{utils}
+    export $out_root/utils/$import.target
+}
