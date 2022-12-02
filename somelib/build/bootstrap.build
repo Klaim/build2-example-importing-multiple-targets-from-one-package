@@ -1,0 +1,7 @@
+project = somelib
+
+using version
+using config
+using test
+using install
+using dist

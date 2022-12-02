@@ -1,0 +1,3 @@
+# somelib
+
+C++ library

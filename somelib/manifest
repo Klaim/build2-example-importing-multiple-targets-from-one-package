@@ -1,0 +1,13 @@
+: 1
+name: somelib
+version: 0.1.0-a.0.z
+project: build2-exemple-import-source
+summary: somelib C++ library
+license: other: proprietary ; Not free/open source.
+description-file: README.md
+url: https://example.org/build2-exemple-import-source
+email: mjklaim@gmail.com
+#build-error-email: mjklaim@gmail.com
+depends: * build2 >= 0.15.0
+depends: * bpkg >= 0.15.0
+#depends: libhello ^1.0.0
