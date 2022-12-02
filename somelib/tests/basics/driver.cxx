@@ -4,6 +4,8 @@
 #include <somelib/version.hxx>
 #include <somelib/somelib.hxx>
 
+#include <utils/utils.hxx>
+
 #undef NDEBUG
 #include <cassert>
 

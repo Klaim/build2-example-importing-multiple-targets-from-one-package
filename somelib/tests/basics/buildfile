@@ -1,3 +1,3 @@
-import libs = somelib%lib{somelib}
+import libs = somelib%lib{somelib utils}
 
 exe{driver}: {hxx ixx txx cxx}{**} $libs testscript{**}
